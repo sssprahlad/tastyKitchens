@@ -1,0 +1,150 @@
+.item-details-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://res.cloudinary.com/image-link-getter/image/upload/v1636282445/Screenshot_2021-11-07_162337_New_ld5e36.png');
+  background-size: cover;
+  height: 220px;
+  padding-left: 0px;
+  margin-left: 0;
+}
+
+.specific-item {
+  height: 180px;
+  max-width: 300px;
+  flex-grow: 1;
+  border-radius: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.specific-card {
+  display: flex;
+  align-items: center;
+  width: 65%;
+}
+.specific-name {
+  font-family: 'Roboto';
+  font-style: Medium;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+.specific-cuisine {
+  font-family: 'Roboto';
+  font-style: 'Regular';
+  font-size: 12px;
+  line-height: 0;
+  font-weight: 350;
+  color: #ffffff;
+}
+.specific-location {
+  font-family: 'Roboto';
+  font-style: 'Regular';
+  font-size: 12px;
+  font-weight: 350;
+  color: #ffffff;
+}
+.line {
+  margin-right: 10px;
+}
+.open-time {
+  font-size: 10.2px;
+  color: #e2e8f0;
+  line-height: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .specific-item {
+    height: 170px;
+    max-width: 280px;
+    flex-grow: 1;
+  }
+  .item-details-containers {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .specific-item {
+    height: 160px;
+    max-width: 160px;
+    flex-grow: 1;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 360px;
+    border-bottom-right-radius: 400px;
+  }
+  .item-details-container {
+    width: 200px;
+  }
+  .specific-name {
+    font-size: 16px;
+  }
+  .specific-card {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 185px;
+    padding-right: 10px;
+  }
+  .specific-cuisine {
+    font-size: 10.2px;
+    font-weight: 300;
+  }
+  .specific-location {
+    font-size: 10.2px;
+    font-weight: 300;
+  }
+}
+
+.merge {
+  display: flex;
+  align-items: center;
+}
+.rating {
+  color: #ffffff;
+  margin-right: 5px;
+}
+.ratingTwo {
+  color: #ffffff;
+}
+
+.specific-rating {
+  font-family: 'Roboto';
+  font-style: 'Regular';
+  font-size: 12px;
+  line-height: 0;
+  color: #ffffff;
+}
+.specific-reviewCount {
+  font-family: 'Roboto';
+  font-style: 'Regular';
+  font-size: 12px;
+  color: #e2e8f0;
+  line-height: 0;
+}
+.one {
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .specific-rating {
+    font-size: 10.2px;
+  }
+  .rating {
+    height: 12px;
+    margin-right: 3px;
+  }
+  .specific-reviewCount {
+    font-size: 10.2px;
+  }
+  .ratingTwo {
+    color: #ffffff;
+    height: 12px;
+  }
+  .details-con {
+    margin-top: 16px;
+    min-height: 185px;
+  }
+}

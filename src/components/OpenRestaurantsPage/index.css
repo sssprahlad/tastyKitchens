@@ -1,0 +1,158 @@
+.openRestaurant-container {
+  min-height: 100vh;
+  background-color: #f8f6f6;
+}
+
+.openRestaurant-items-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  width: 100%;
+  overflow: auto;
+}
+@media screen and (max-width: 767px) {
+  .openRestaurant-items-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 100%;
+    min-height: 70vh;
+  }
+}
+.carousel-list {
+  width: 100%;
+  padding-left: 0;
+}
+.new-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.home-new-loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-size: cover;
+}
+.loading-text {
+  color: #f7931e;
+  font-size: 18px;
+  font-weight: 600;
+}
+.opened-restaurant {
+  color: #250a0a;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-style: 'italic';
+  font-weight: 500;
+  line-height: 0.6;
+  text-align: center;
+}
+.open-description {
+  color: #241616;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-style: 'italic';
+  font-weight: 400;
+  line-height: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .home-new-loader {
+    height: 180px;
+  }
+  .loading-text {
+    font-size: 14px;
+  }
+  .opened-restaurant {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .open-description {
+    line-height: 1;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .opened-restaurant {
+    font-size: 26px;
+  }
+  .open-description {
+    font-size: 14px;
+  }
+}
+.not-found-image {
+  height: 100px;
+  width: 100px;
+}
+
+.not-found-name {
+  font-size: 20px;
+}
+.not-found-description {
+  font-size: 12px;
+  color: #475569;
+}
+.retry-button {
+  color: #ffff;
+  background-color: #f7931e;
+  border: 0;
+  border-radius: 5px;
+  font-size: 11px;
+  width: 50px;
+  height: 20px;
+}
+.ul-openRestaurant-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .ul-openRestaurant-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ul-openRestaurant-item-container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+.no-open-items {
+  text-align: center;
+  font-size: 26px;
+  color: #b80d0d;
+}
+@media screen and (max-width: 767px) {
+  .no-open-items {
+    font-size: 15px;
+  }
+}
+.no-orders-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+}
+@media screen and (max-width: 767px) {
+  .no-orders-container {
+    min-height: 40vh;
+  }
+}
+.no-orders-found {
+  width: 30%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+  .no-orders-found {
+    width: 60%;
+    max-width: 400px;
+  }
+}

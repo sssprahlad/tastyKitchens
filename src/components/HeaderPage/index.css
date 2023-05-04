@@ -1,0 +1,137 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ffffff;
+  padding-top: 4px;
+  padding-bottom: 5px;
+}
+@media screen and (max-width: 767px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.image-nav-container {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .image-nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+.tasty-logo {
+  height: 38.86px;
+  width: 48.73px;
+  margin-right: 20px;
+}
+.home-tasty-name {
+  font-family: 'DM Sans';
+  font-style: Bold Italic;
+  font-size: 24px;
+  line-height: 32px;
+  line-height: 102%;
+  vertical-align: Top;
+  color: #f7931e;
+}
+@media screen and (max-width: 767px) {
+  .home-tasty-name {
+    font-size: 16px;
+  }
+  .tasty-logo {
+    height: 25px;
+    width: 30px;
+  }
+}
+.header-home {
+  font-family: 'DM Sans';
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 125%;
+  vertical-align: Top;
+  letter-spacing: -0.36px;
+}
+.header-list {
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.header-ul-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 767px) {
+  .header-ul-container {
+    display: none;
+    width: 100%;
+  }
+  .header-home {
+    font-size: 14px;
+  }
+}
+
+.header-button {
+  background-color: #f7931e;
+  width: 60px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  cursor: pointer;
+}
+.one {
+  color: #f7931e;
+}
+
+.header-ul-container-add {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.closer {
+  height: 30px;
+  width: 26px;
+  margin-right: 10px;
+}
+.hamBurger {
+  display: flex;
+}
+@media screen and (min-width: 767px) {
+  .closer {
+    display: none;
+  }
+  .hamBurger {
+    display: none;
+  }
+}
+.add-new-container {
+  display: flex;
+  align-items: center;
+}
+.header-new-list-container {
+  display: flex;
+  align-items: center;
+}
+.removeColor {
+  color: black;
+}

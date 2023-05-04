@@ -1,0 +1,123 @@
+.popular-text {
+  color: #183b56;
+  font-family: 'DM Sans';
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 0px;
+}
+@media screen and (max-width: 767px) {
+  .popular-text {
+    font-size: 24px;
+    line-height: 0px;
+  }
+}
+
+.popular-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 767px) {
+  .popular-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .popular-bar-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.popular-container {
+  display: flex;
+  flex-direction: column;
+}
+.popular-name {
+  font-family: 'DM Sans';
+  font-style: Medium;
+  font-size: 16px;
+  color: #64748b;
+}
+@media screen and (max-width: 767px) {
+  .popular-name {
+    font-size: 12px;
+  }
+}
+.dropDown-container {
+  display: flex;
+  align-items: center;
+}
+.option {
+  outline: none;
+  border: 0;
+}
+.drop-down {
+  border: 0;
+  outline: none;
+}
+.icon-bar-container {
+  display: flex;
+  align-items: center;
+}
+.sort {
+  font-family: 'DM Sans';
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 10px;
+}
+.search-bar {
+  width: 36%;
+  height: 28px;
+  outline: none;
+  margin-right: 20px;
+  background-color: #f5efef;
+  border: 1px solid;
+  padding: 10px;
+}
+@media screen and (max-width: 767px) {
+  .search-bar {
+    width: 90%;
+    height: 20px;
+  }
+}
+.add-link-to-navigate-open-restaurant {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  height: 16px;
+}
+.open-restaurant {
+  font-size: 16px;
+  color: brown;
+  text-decoration: none;
+  line-height: 0.9;
+}
+@media screen and (max-width: 767px) {
+  .open-restaurant {
+    font-size: 14px;
+  }
+}
+.open-restaurant-for-link {
+  color: brown;
+  text-decoration: none;
+}
+.get-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.right-arrow {
+  color: brown;
+}

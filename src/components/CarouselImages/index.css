@@ -1,0 +1,46 @@
+.new {
+  height: 200px;
+  width: 90%;
+}
+.carouselImage {
+  height: 200px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .new {
+    height: 140px;
+  }
+  .carouselImage {
+    height: 140px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .new {
+    height: 165px;
+  }
+  .carouselImage {
+    height: 165px;
+    width: 100%;
+  }
+}
+.carousel-item {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+@media screen and (max-width: 767px) {
+  .carousel-item {
+    margin-top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-item {
+    margin-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

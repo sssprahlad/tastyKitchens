@@ -1,0 +1,32 @@
+.convert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.greater-container {
+  display: flex;
+  align-items: center;
+}
+
+.greater-icon {
+  height: 26px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.page-counter {
+  font-size: 14px;
+}
+.icon {
+  font-weight: 0;
+  font-size: 10px;
+}
+@media screen and (max-width: 767px) {
+  .icon {
+    font-size: 8px;
+  }
+  .greater-icon {
+    height: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}

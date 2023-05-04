@@ -1,0 +1,120 @@
+.cart-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  list-style-type: none;
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  padding: 14px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+  .cart-list {
+    justify-content: space-between;
+    margin-left: 0;
+    margin-top: 20px;
+    padding-left: 0;
+    height: 110px;
+  }
+}
+.count-of-items-in-cart {
+  color: black;
+}
+.cart-image {
+  min-width: 150px;
+  max-width: 151px;
+  height: 110px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cart-name {
+  font-size: 14px;
+  font-family: 'DM Sans';
+  font-style: Medium;
+}
+.cart-name-mobile {
+  font-size: 14px;
+  font-family: 'DM Sans';
+  font-style: Medium;
+  line-height: 0.9;
+  text-align: center;
+}
+.cart-name-one {
+  font-size: 14px;
+  font-family: 'DM Sans';
+  font-style: Medium;
+}
+.mobile-cart-merge {
+  display: flex;
+  align-items: center;
+}
+.color {
+  color: #ffa412;
+}
+.hide-button {
+  display: flex;
+  align-items: center;
+  height: 10px;
+}
+.cart-star-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-cart-view {
+    display: none;
+  }
+  .cart-name-one {
+    display: none;
+  }
+  .cart-star-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .cart-star-container {
+    padding-left: 0px;
+  }
+}
+.cart-star-con {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.remove-icon {
+  width: 10%;
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-cart-merge {
+    display: none;
+  }
+  .cart-name {
+    display: none;
+  }
+  .remove-icon {
+    display: none;
+  }
+}
+.cart-merge {
+  padding-left: 20px;
+}
+@media screen and (max-width: 767px) {
+  .cart-merge {
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .cart-merge {
+    padding-left: 10px;
+  }
+}

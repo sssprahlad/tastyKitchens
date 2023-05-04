@@ -1,0 +1,153 @@
+.main-restaurant-list {
+  list-style-type: none;
+  height: 138px;
+  width: 32%;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-top: 18px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+  .main-restaurant-list {
+    height: 110px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .main-restaurant-list {
+    width: 48%;
+    height: 134px;
+  }
+}
+
+.list-item-restaurant {
+  display: flex;
+  align-items: flex-start;
+  height: 138px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .list-item-restaurant {
+    height: 134px;
+  }
+}
+
+.restaurant-name-container {
+  display: flex;
+  flex-direction: column;
+}
+.foodType {
+  font-size: 12px;
+  font-family: 'DM Sans';
+  font-style: Bold;
+  color: #64748b;
+  line-height: 0;
+  margin-top: 4px;
+}
+@media screen and (max-width: 767px) {
+  .list-item-restaurant {
+    height: 110px;
+  }
+  .foodType {
+    font-size: 10px;
+    color: #64748b;
+    font-family: 'DM Sans';
+    font-style: Bold;
+    line-height: 0;
+  }
+}
+.home-restaurant-image-container {
+  height: 138px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .home-restaurant-image-container {
+    height: 110px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .home-restaurant-image-container {
+    height: 134px;
+  }
+}
+.home-restaurant-image {
+  height: 138px;
+  min-width: 190px;
+  max-width: 195px;
+  border-radius: 8px;
+}
+.food-count {
+  font-size: 11px;
+  color: #64748b;
+  line-height: 1;
+  margin-top: 5px;
+}
+.food-review-count {
+  font-size: 8px;
+  color: #64748b;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .home-restaurant-image {
+    height: 134px;
+    min-width: 210px;
+    max-width: 220px;
+    flex-grow: 1;
+  }
+}
+@media screen and (max-width: 767px) {
+  .home-restaurant-image {
+    height: 110px;
+    min-width: 153px;
+    max-width: 155px;
+  }
+  .food-count {
+    font-size: 11px;
+    margin-top: 2px;
+  }
+}
+.restaurant-name {
+  font-family: 'DM Sans';
+  font-style: Bold;
+  font-size: 14px;
+  color: #334155;
+}
+.food-rating {
+  font-family: 'DM Sans';
+  font-style: Bold;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0;
+  color: #1e293b;
+}
+.ratingColor {
+  color: #ffcc00;
+  margin-right: 5px;
+  height: 14px;
+}
+@media screen and (max-width: 767px) {
+  .restaurant-name {
+    font-size: 12px;
+    color: #1e293b;
+  }
+  .food-rating {
+    font-size: 11px;
+  }
+  .ratingColor {
+    color: #ffcc00;
+    margin-right: 5px;
+    height: 12px;
+  }
+}
+
+.star-container {
+  display: flex;
+  align-items: center;
+}
+
+.ratingColor {
+  color: #22f2bb;
+}
+.removeRatingColor {
+  color: #ffcc00;
+}

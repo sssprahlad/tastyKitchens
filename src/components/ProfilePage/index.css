@@ -1,0 +1,104 @@
+.profile-top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 0;
+}
+.profile-container {
+  width: 50%;
+  background-color: #ffee;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background-color: rgba(240, 153, 194, 0.685);
+  width: 110px;
+  height: 110px;
+  color: #ffffff;
+}
+.user-profile-name {
+  font-size: 26px;
+}
+@media screen and (max-width: 767px) {
+  .profile-container {
+    width: 86%;
+  }
+  .name-container {
+    width: 60px;
+    height: 55px;
+    min-height: 50px;
+    min-width: 50px;
+  }
+  .user-profile-name {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .name-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+.new-user-details-container {
+  margin-left: 20px;
+}
+.combine-name-userDetails {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.combine-details-userDetails {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .combine-details-userDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.profile-form-container {
+  margin-top: 40px;
+}
+.profile-name {
+  font-family: 'roboto';
+  font-weight: 450;
+  font-size: 15px;
+}
+.profile-input {
+  border-radius: 5px;
+  border: 2px solid #776d6d;
+  padding: 10px;
+  height: 40px;
+  margin-top: 2px;
+}
+.first-name-container {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 26px;
+}
+.first-top-name-container {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+}
+@media screen and (max-width: 767px) {
+  .first-name-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .profile-form-container {
+    margin-top: 20px;
+  }
+}
